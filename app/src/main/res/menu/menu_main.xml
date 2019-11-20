@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mybrowser.MainActivity">
+
+<!--    <item-->
+<!--        android:id="@+id/item1"-->
+<!--        android:icon="@drawable/ic_android"-->
+<!--        android:title="Item1"-->
+<!--        app:showAsAction="ifRoom" />-->
+    <item
+        android:id="@+id/searchMenuItem"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/refreshMenuItem"
+        android:title="Refresh" />
+    <item
+        android:id="@+id/backMenuItem"
+        android:title="Go back" />
+    <item
+        android:id="@+id/forwardMenuItem"
+        android:title="Go forward" />
+    <item
+        android:id="@+id/addBookmarkMenuItem"
+        android:title="Add bookmark" />
+    <item
+        android:id="@+id/bookmarkMenuItem"
+        android:title="Bookmarks"/>
+    <item
+        android:id="@+id/clearBookmarkMenuItem"
+        android:title="Clear bookmarks" />
+    <item
+        android:id="@+id/historyMenuItem"
+        android:title="History" />
+    <item
+        android:id="@+id/clearHistoryMenuItem"
+        android:title="Clear history" />
+    <item
+        android:id="@+id/exitMenuItem"
+        android:title="Exit" />
+</menu>
